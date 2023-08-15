@@ -15,7 +15,7 @@ const About = () => {
           <h2 className='h2 text-[#CDFF42]'>About Me</h2>
           <h3 className='h3 mb-4'>Hi there! I'm Divyanshh, a versatile full stack web developer with a passion for creating
 intuitive and visually appealing web applications.</h3>
-          <p className='mb-6'></p>
+          
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
             {/* <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>

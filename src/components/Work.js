@@ -23,7 +23,7 @@ const Work = () => {
               <span className='text-gradient text-3xl'>Study Notion</span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-2xl text-white'>A Full-Stack Web Application</span>
+              <span className='text-2xl text-white'>A Full-Stack Web App</span>
             </div>
           </div>
         </motion.div>

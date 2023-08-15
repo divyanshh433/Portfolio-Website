@@ -1,5 +1,4 @@
 import React from 'react';
-import {BsArrowUpRight } from 'react-icons/bs'
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'
 import HTML from '../assets/HTML.png'
@@ -16,25 +15,6 @@ import github from '../assets/Github.svg'
 import vercel from '../assets/Vercel.svg'
 import {Link} from 'react-scroll';
 
-const services =[
-  {
-    name:'UI/UX Design',
-    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-    link:'Learn More',
-},{
-  name:'Development',
-  description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-  link:'Learn More',
-},{
-  name:'Digital Marketing',
-  description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-  link:'Learn More',
-},{
-  name:'Product Branding',
-  description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-  link:'Learn More',
-}
-]
 
 
 
@@ -50,18 +30,18 @@ const Services = () => {
         </motion.div>
         <motion.div variants={fadeIn('left',0.5)} initial='hidden' whileInView={'show'} viewport={{once:false,amount:0.3}} className='flex-1'>
           <div className='flex flex-wrap gap-12 max-w-lg'> 
-                            <img src={HTML} className='h-[80px] hover:scale-110 transition-all' alt="html" />
-                            <img src={CSS} className='h-[80px] hover:scale-110 transition-all' alt="" />
-                            <img  src={Js} className='h-[80px] hover:scale-110 transition-all' alt="" />
-                            <img src={react} className='h-[80px] hover:scale-110 transition-all' alt="" />
-                            <img  src={Node} className='h-[80px] hover:scale-110 transition-all' alt="" />
-                            <img src={Redux} className='h-[80px] hover:scale-110 transition-all' alt="html" />
-                            <img src={tailwind} className='h-[80px] hover:scale-110 transition-all' alt="" />
-                            <img  src={express} className='h-[80px] hover:scale-110 transition-all' alt="" />
-                            <img src={mdb} className='h-[80px] hover:scale-110 transition-all' alt="" />
-                            <img  src={git} className='h-[80px] hover:scale-110 transition-all' alt="" />
-                            <img  src={github} className='h-[80px] hover:scale-110 transition-all' alt="" />
-                            <img  src={vercel} className='h-[80px] hover:scale-110 transition-all' alt="" />
+                            <img src={HTML} className='h-[75px] hover:scale-110 transition-all' alt="html" />
+                            <img src={CSS} className='h-[75px] hover:scale-110 transition-all' alt="" />
+                            <img  src={Js} className='h-[75px] hover:scale-110 transition-all' alt="" />
+                            <img src={react} className='h-[75px] hover:scale-110 transition-all' alt="" />
+                            <img  src={Node} className='h-[75px] hover:scale-110 transition-all' alt="" />
+                            <img src={Redux} className='h-[75px] hover:scale-110 transition-all' alt="html" />
+                            <img src={tailwind} className='h-[75px] hover:scale-110 transition-all' alt="" />
+                            <img  src={express} className='h-[75px] hover:scale-110 transition-all' alt="" />
+                            <img src={mdb} className='h-[75px] hover:scale-110 transition-all' alt="" />
+                            <img  src={git} className='h-[75px] hover:scale-110 transition-all' alt="" />
+                            <img  src={github} className='h-[75px] hover:scale-110 transition-all' alt="" />
+                            <img  src={vercel} className='h-[75px] hover:scale-110 transition-all' alt="" />
             {/* {services.map((service,index)=>{
               const {name,description,link}=service;
               return(

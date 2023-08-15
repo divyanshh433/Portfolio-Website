@@ -14,7 +14,7 @@ const Banner = () => {
             <motion.h1 variants={fadeIn('up',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className='text-[55px] font-bold leading-[0.8] lg:text-[100px]'>
               DIVYANSHH <span>MITRA</span>
             </motion.h1>
-            <motion.div variants={fadeIn('up',0.4)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
+            <motion.div variants={fadeIn('up',0.4)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className='mb-6 text-[24px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] mt-6 lg:mt-0'>
               <span className='mr-4 text-white'>I am a</span>
               <TypeAnimation sequence={['Full-Stack Developer',2000,'Front-End Developer',2000,'Back-End Developer']} speed={50} className='text-[#CDFF42]' wrapper='span' repeat={Infinity}/>
             </motion.div>
