@@ -29,7 +29,7 @@ const Banner = () => {
                 </a>
               </div>
               <div className=' hover:scale-110 transition-all'>
-                <a href='https://www.linkedin.com/in/divyanshh-mitra/'>
+                <a href='https://www.linkedin.com/in/divyanshhmitra/'>
                   <FaLinkedin/>
                 </a>
               </div>
